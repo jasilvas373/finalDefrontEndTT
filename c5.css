@@ -1,0 +1,49 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+header {
+    background-color: rgb(9, 192, 224) !important;
+    /*no se ussa important, salvo en algunas excepciones
+    anula la ultima orden de la cascada*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 200px;
+}
+
+nav, ul, li { /*se pueden poner separado el nav, ul, li*/
+    display: inline;
+}
+
+header {
+    background-color: rgb(9, 160, 201) ;/*regla, cpmp es en cascada
+    prevalece el ultimo*/
+
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+video {
+    display: block;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+
+.textoVerde {
+    color: green;
+    font-size: 2rem;
+    /*tambien se puede agregar p especificar algo*/
+}

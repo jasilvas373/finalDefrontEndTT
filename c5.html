@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fuentes de google -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" 
+        rel="stylesheet">
+
+    <!-- Iconos de Font awesome-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Mis estilos-->
+    <link rel="stylesheet" href="c5.css">
+
+    <title>c5</title> 
+</head>
+<body> 
+    <header> 
+        <img src="Multimedia/LogoOficial2.png" alt="Logo de la tienda">
+        <nav> 
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <video controls poster="preview.jpg" width="200" height="150">
+            <source src="/Multimedia/video.mp4" type="video/mp4">
+         </video>
+    </header>
+    
+    <main>
+        
+
+        <form action="https://formspree.io/f/mblgnkky" method="POST">
+            <p>Esta es la seccion principal</p>
+            <label for="email">Tu correo:</label>
+            <input type="email" id="email" name="email" required>
+            <p></p>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+            <p><button type="submit">Enviar</button></p>
+        </form>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26266.39466737715!2d-58.35980799999999!3d-34.621875200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1745025700810!5m2!1ses-419!2sar"
+        width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </main>
+    <footer>  
+        <h3>Seguinos en nuestras redes</h3><!--Este es el pie de pagina<-->
+        <ul>
+           <p><li><i class="fa-brands fa-square-instagram"></i> Instagram</li></p>
+           <p><li><i class="fa-brands fa-tiktok"></i> Tik Tok</li></p>
+           <p><li><i class="fa-brands fa-facebook"></i> Facebook</li></p>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+h1 {
+    display: inline;/*si pongo none en lugar de inline queda
+    la escritura normal*/
+}
+input {
+    display: block;
+}
+/*tambien se puede usar esta opcion de abajo*/
+div {
+    display: inline;/*tambien esta inline en block, 
+    un intermedio de los dos*/
+}

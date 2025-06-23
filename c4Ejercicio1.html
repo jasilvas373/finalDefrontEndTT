@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="c4Ejercicio1styles.css">
+
+    <title>c4Ejercicio1</title> 
+</head>
+<body> 
+    <header> 
+        <img src="Multimedia/LogoOficial2.png" alt="Logo de la tienda">
+        <nav> 
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <video controls poster="preview.jpg" width="200" height="150">
+            <source src="/Multimedia/video.mp4" type="video/mp4">
+         </video>
+    </header>
+    
+    <main>
+        
+
+        <form action="https://formspree.io/f/mblgnkky" method="POST">
+            <p>Esta es la seccion principal</p>
+            <label for="email">Tu correo:</label>
+            <input type="email" id="email" name="email" required>
+            <p></p>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+            <p><button type="submit">Enviar</button></p>
+        </form>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26266.39466737715!2d-58.35980799999999!3d-34.621875200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1745025700810!5m2!1ses-419!2sar"
+        width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </main>
+    <footer>  
+        <p>Este es el pie de pagina</p>
+     </footer>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c2MateriAmplia2</title>
+</head>
+
+<body>
+    <header></header>
+    <nav></nav>
+    <main> <!-- Tipos de listas -->
+        <ol> <!-- Lista ordenada -->
+            <li>Encender pc.</li>
+            <li>Abrir navegador.</li>
+            <li>Acceder al sitio.</li>
+        </ol>
+        <ul><!-- Lista desordenada -->
+            <li>Pantalla de 15 pulgadas.</li>
+            <li>Bateria larga duración.</li>
+            <li>Procesador Intel i7.</li>
+        </ul>
+        <dl><!-- Listas de definicion -->
+            <dt>HTML</dt>
+            <dd>Lenguaje p estructurar contenido en la web.</dd>
+
+            <dt>CSS</dt>
+            <dd>Lenguaje p aplicar estilos y diseño en la web.</dd>
+
+            <dt>JavaScript</dt>
+            <dd>Lenguaje p añadir interactividad en las paginas.</dd>
+        </dl>
+        <!-- Enlaces -->
+        <a href="https://www.google.com/" target="_blank">Buscador masivo</a>
+        <a href="emailto:latinman9574@gmail.com">enviar correo</a>
+        <!-- Rutas absolutas -->
+        <a href="https://images.app.goo.gl/v9BfLAuvEzzsApsY9" target="_blank">sorpresa</a>
+        <!-- Rutas relativas -->
+        <a href="/Multimedia/marCaribe.jpg" target="_blank">ver imagen</a>
+        <!-- Elementos en bloque (block) -->
+        <p>
+            <li>div: contenedor generico p agrupar elementos, no es recomendable su uso
+                al no utilizar etiquetas semanticas.</li>
+            <li>h1..h6: Encabezados de diferentes niveles.</li>
+            <li>p: Define un parrafo.</li>
+            <li>ul y ol: Listas, sean ordenadas o desordenadas.</li>
+        </p>
+        <!-- Elementos en linea (inline) -->
+        <p>
+            <li>span: Un contenedor generico p agrupar texto.</li>
+            <li>a: Enlaces.</li>
+            <li>strong: Aplica a textos al estilo negrita.</li>
+            <li>em: Aplica al texto estilo cursiva.</li>
+        </p>
+        <!-- Multimedia con HTML -->
+        <img src="/Multimedia/marCaribe.jpg" alt="Hermosa foto" width="150" height="100">
+        <!-- Inserción de audio -->
+        <p>
+            <li>controls: muestra controles de reproducción.</li>
+            <li>autoplay: reproduce automaticamente el audio al cargar la pagina.</li>
+            <li>loop: reproduce el audio en una reproducción continua.</li>
+        </p>
+        <audio controls>
+            <source src="/Multimedia/audioPop.mp3" type="audio/mpeg">
+        </audio>
+        <!-- Inserción de video -->
+        <p>
+            <li>controls: muestra controles de reproducción.</li>
+            <li>poster: muestra una imagen antes de reproducirse.</li>
+            <li>autoplay: reproduce automaticamente el audio al cargar la pagina.</li>
+        </p>
+        <!--Tener cuidado, algunos usuarios prefieren reproducir el video.-->
+        <video controls poster="preview.jpg" width="150" height="100">
+            <source src="/Multimedia/video.mp4" type="video/mp4">
+        </video>
+        <!-- Uso de Iframes -->
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26266.39466737715!2d-58.35980799999999!3d-34.621875200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1745025700810!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Accesibilidad en multimedia -->
+        <!-- Ejem para imagenes -->
+        <img src="/Multimedia/marCaribe.jpg" alt="Bella imagen">
+        <!-- Ejem p subtitulos en video -->
+        <video controls width="80%" muted>
+            <source src="/Multimedia/conectando.mp4" type="video/mp4">
+
+            <track src="/Multimedia/spanish.vtt" kind="subtitles" srclang="es" label="Español" default>
+        </video>
+        <!-- Tablas -->
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Ciudad</th>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>25</td>
+                <td>Madrid</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>30</td>
+                <td>Barcelona</td>
+            </tr>
+        </table>
+
+        <!-- Combinar tablas -->
+        <table>
+            <tr> <!-- Colspan combina celdas horizontalmente 
+                      Rowspan combina celdas verticalmente -->
+                <th rowspan="2">Nombre</th>
+                <th colspan="2">Contacto</th>
+            </tr>
+            <tr>
+                <td>Teléfono</td>
+                <td>Email</td>
+            </tr>
+            <tr>
+                <td>Ana</td>
+                <td>123456789</td>
+                <td>ana@ejemplo.com</td>
+            </tr>
+        </table>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

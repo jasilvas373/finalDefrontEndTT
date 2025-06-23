@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c4</title>
+    <style> <!--CSS Interno, NO SE USA-->
+        h3 {
+            color: green;
+        }
+        button {
+            color: blueviolet;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <Main> <!-- Escrituras de CSS-->
+        <H2 style="color: red;">Rellena el formulario</H2><!--CSS en linea, NO SE USA-->
+        <form action="https://formspree.io/f/mblgnkky" method="POST">
+            <label style="color: blue;" for="nombre">Nombre</label><!--CSS en linea, NO SE USA-->
+            <input type="text" id="nombre" name="nombre" required>
+            <p></p>
+            <label for="email">Correo electronico:</label>
+            <input type="email" id="email" name="email" required>
+            <p></p>
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <h3>Reseñas</h3>
+    </Main>
+</body>
+
+</html>
